@@ -1,0 +1,14 @@
+#!/bin/bash
+#
+# Muljed
+#
+echo -n "Hannes Helemaa
+" # Minu nimi
+echo -n "IS117
+" # Minu õpperühm
+echo -n "Tund on väga coooool
+" # Minu muljed
+echo -n "Olen nüüd väga kogenud skriptija
+" # Not really
+#
+# skripti lõpp

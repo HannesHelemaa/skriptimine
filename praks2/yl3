@@ -1,0 +1,9 @@
+#!/bin/bash
+#
+#Muljed
+#
+echo -n "Hannes Helemaa"
+echo -n "IS117"
+echo -n "Aine tundub väga põnev"
+echo -n "Olen nüüd väga kogenud skriptija"
+# Skripti lõpp

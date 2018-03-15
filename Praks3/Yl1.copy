@@ -1,0 +1,9 @@
+#!/bin/bash
+#
+#kalender
+date+"Today is %A, %B %m, %Y" #
+date + "time is %R"
+echo ""
+echo -n "Calender of "
+cal
+#Skripti lõpp

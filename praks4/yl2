@@ -1,0 +1,9 @@
+#!/bin/bash
+#
+#skipti algus
+echo -n "sisesta aluskandiku pikkus ja laius: "
+read pikkus laius
+echo aluskandik=`expr $pikkus \* $laius`
+echo $aluskandik
+#
+#skripti lõpp

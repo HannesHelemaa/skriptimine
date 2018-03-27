@@ -11,7 +11,9 @@ maha=`expr $reisijate_arv % $kohtade_arv`
 if [ $maha -gt 0 ]
 then
 bussid=$(( $t2idetud + 1 ))
-echo -n "Kokku on vaja $bussid bussi 
-"
+else
+bussid=$t2idetud
 fi
+echo -n "Kokku on vaja $bussid bussi
+"
 #skripti lõpp

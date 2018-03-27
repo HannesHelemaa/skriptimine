@@ -1,0 +1,17 @@
+#!/bin/bash
+#
+#skrpiti algus
+echo -n "Sisesta reisijate arv bussis: "
+read reisijate_arv
+echo -n "Sisesta kohtade arv bussis: "
+read kohtade_arv
+t2idetud=`expr $reisijate_arv / $kohtade_arv`
+maha=`expr $reisijate_arv % $kohtade_arv`
+
+if [ $maha -gt 0 ]
+then
+bussid=$(( $t2idetud + 1 ))
+echo -n "Kokku on vaja $bussid bussi 
+"
+fi
+#skripti lõpp
